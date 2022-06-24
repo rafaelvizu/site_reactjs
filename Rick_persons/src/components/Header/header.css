@@ -1,0 +1,40 @@
+
+:root {
+     --cor01: #84BF2C;
+     --cor02: #378D37;
+     --cor03: #70AA4C;
+     --cor04: #2D8738;
+     --cor05: #A3C931;
+ }
+ 
+header {
+     background-color: var(--cor04);
+     padding: 60px;
+}
+
+header > h1 {
+     color: rgba(255, 255, 255, 0.712);
+     font-family: cursive;
+     font-size: 4em;
+}
+
+hr {
+     border-color: var(--cor02);
+}
+
+nav {
+     background-color: var(--cor04);
+     padding: 20px;
+     text-align: center;
+}
+
+.navLink {
+     color: rgba(255, 255, 255, 0.774);
+     text-decoration: none;
+     font-size: 1.5em;
+     margin-left: 30px;
+}
+
+.navLink:hover {
+     color: white;
+}
